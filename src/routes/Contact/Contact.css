@@ -1,0 +1,121 @@
+.contact--container {
+  max-width: 1100px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-start; 
+  padding-top: 2rem;   
+}
+
+.contact--contact-area {
+  flex: 1;
+  margin-left: 1rem;
+}
+
+.contact--map {  
+  align-self: center;
+  margin-left: 2rem;  
+  margin-right: 1rem;
+  flex: 2;
+  height: 42rem;
+  border-radius: 2rem;
+  overflow: hidden;
+}
+
+.contact--title {
+  font-family: roboto Slab, sans-serif;  
+  font-size: 2rem;
+  color: #ABAD42;
+  letter-spacing: 0.12rem;
+}
+
+.contact--form {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;  
+}
+
+.contact--input-field {
+  height: 4.5rem;
+}
+
+.contact--input-field,
+.contact--message-field {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 0.8rem;
+  width: 100%;
+}
+
+.contact--input-field label,
+.contact--message-field label {
+  font-size: 1.5rem;
+}
+
+.contact--input-field input {
+  font-size: 1.5rem;
+  color: black;
+  padding: 0.3rem;
+  border: none;
+  border-radius: 0.5rem;
+  width: 100%;
+}
+
+.contact--input-field input,
+.contact--message-field textarea {
+  box-shadow: 0.13rem 0.3rem 0.3rem rgba(255, 255, 255, 0.4);
+}
+
+.contact--input-field input:focus,
+.contact--message-field textarea:focus {
+  outline: none;
+  background-color: #f6f897;
+}
+
+.contact--message-field textarea {
+  font-size: 1.5rem;
+  color: black;
+  padding: 0.3rem;
+  border-radius: 1rem;
+  height: 18rem;
+  width: 100%;
+  resize: none;
+}
+
+.contact--send-button {
+  height: 3rem;
+  width: 10rem;
+  background-color: transparent;
+  font-family: Roboto Slab, sans-serif;
+  font-size: 1.5rem;
+  border-radius: 0.625rem;
+  border: 0.13rem solid #ABAD42;  
+  cursor: pointer;
+}
+
+.contact--send-button:hover {
+  color: #ABAD42;
+  background-color: white;
+}
+
+@media only screen and (max-width: 900px) {
+  .contact--container {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .contact--input-field,
+  .contact--message-field {
+    width: 80vw;
+  } 
+
+  .contact--map { 
+    flex: none;
+    width: 80vw;    
+    height: 80vw;
+    margin-top: 2rem;
+  }
+}

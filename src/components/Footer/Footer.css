@@ -1,0 +1,29 @@
+.footer--container {
+  position: fixed;
+  z-index: 100; 
+  bottom: 0;
+  left: 0;
+  height: 3rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100%;
+  background-color: #3C3636;
+  box-shadow: 0 0.1rem 0.5rem rgba(255, 255, 255, 0.6);
+}
+
+.footer--container p {
+  font-size: 1rem;
+  font-style: italic;
+  margin: 0 1rem;
+}
+
+.footer--icon {
+  font-size: 2rem;
+  margin: 1.5rem;
+  cursor: pointer;
+}
+
+.footer--icon:hover {
+  font-size: 3rem;
+}
