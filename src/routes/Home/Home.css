@@ -5,7 +5,6 @@
   display: flex;
   justify-content: space-around;
   align-items: center;
-  overflow: hidden;
 }
 
 .home--hello-container {

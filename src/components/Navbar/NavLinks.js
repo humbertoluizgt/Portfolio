@@ -16,7 +16,7 @@ const NavLinks = (props) => {
       </li>
       <li className={isDropdown} onClick={props.handleDropdown}>
         <NavLink 
-          to='about'
+          to='/about'
           className={({ isActive }) => (isActive ? 'active' : 'inactive')}
         >
             About
@@ -24,7 +24,7 @@ const NavLinks = (props) => {
       </li>
       <li className={isDropdown} onClick={props.handleDropdown}>
         <NavLink 
-          to='portfolio'
+          to='/portfolio'
           className={({ isActive }) => (isActive ? 'active' : 'inactive')}
         >
             Portfolio
@@ -32,7 +32,7 @@ const NavLinks = (props) => {
       </li>
       <li className={isDropdown} onClick={props.handleDropdown}>
         <NavLink 
-          to='contact'
+          to='/contact'
           className={({ isActive }) => (isActive ? 'active' : 'inactive')}
         >
             Contact
