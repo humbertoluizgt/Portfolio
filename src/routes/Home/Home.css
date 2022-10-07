@@ -4,7 +4,8 @@
   margin: 0 auto;
   display: flex;
   justify-content: space-around;
-  align-items: center;
+  align-items: center;  
+  overflow: hidden;
 }
 
 .home--hello-container {

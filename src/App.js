@@ -8,7 +8,7 @@ import About from './routes/About/About';
 import Portfolio from './routes/Portfolio/Portfolio';
 import Contact from './routes/Contact/Contact';
 
-function App() { 
+function App() {
   return (
     <Router>
       <div className='app--content'>      
